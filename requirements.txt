@@ -1,0 +1,25 @@
+# Requirements for running the analysis in this repository.
+ipykernel==6.29.5
+
+# Data handling and numerical computing
+numpy==1.26.4
+pandas==1.5.3
+scipy==1.12.0
+psutil==7.0.0
+
+# Interactive plotting (HoloViews / HVPlot / Bokeh)
+holoviews==1.20.0
+hvplot==0.11.1
+bokeh==3.4.3
+matplotlib==3.9.2
+
+# Counterfactual explanations
+dice-ml==0.11
+raiutils==0.4.2
+
+# Models handling
+tensorflow==2.10.1
+keras==2.10.0
+scikit-learn==1.4.1.post1
+monotonic-nn==0.3.4
+keras-nlp==0.9.3
